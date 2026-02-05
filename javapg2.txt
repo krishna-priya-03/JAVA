@@ -1,0 +1,35 @@
+class product
+{
+    int id;
+    String name;
+    float price;
+
+    void get(int id1, String n, float p)
+    {
+        id = id1;
+        name = n;
+        price = p;
+    }
+
+    void show()
+    {
+        System.out.println(" product id is " + id);
+        System.out.println(" product name is " + name);
+        System.out.println(" product price is " + price);
+    }
+
+    public static void main(String args[])
+    {
+        product p1 = new product();
+        p1.get(101, "soap", 35);
+        p1.show();
+        
+         product p2 = new product();
+        p1.get(102, "glass", 1100);
+        p1.show();
+        
+         product p3 = new product();
+        p1.get(103, "plastic", 350);
+        p1.show();
+    }
+}

@@ -1,0 +1,32 @@
+public class student
+{
+	int id;
+	string name;
+	float mark;
+void get(int id1,string n,float m)
+{
+	id=id1;
+	name=n;
+	mark=m;
+
+}
+void show()
+{
+	System.out.println("my id is", +id);
+	System.out.println("my name is", +name);
+	System.out.println("my mark is", +mark);
+}
+
+}
+}
+class demo
+{	
+public static void main(String args[])
+{
+student s1=new student();
+s1.get(101,"bubu",80)
+}
+}
+
+
+
